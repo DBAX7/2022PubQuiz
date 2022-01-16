@@ -12,51 +12,49 @@ let availableQuestions = []
 
 let questions = [
     {
-        question: 
-    'If all goes to plan, what will Elizabeth Windsor celebrate in February?',
-
-    choice1: 'Her Birthday',
-    choice2: 'Platinum Jubilee',
-    choice3: 'Her estranged Grandsons anniversary',
-    choice4: 'Golden Jubilee',
-    answer: 2,
-},
-{
-    question: 
-'What is 2022 written in Roman Numerals',
-
-    choice1: 'MMXXII',
-    choice2: '2022',
-    choice3: 'MMXXXII',
-    choice4: 'LXIX',
-    answer: 1,
-},
-{
-    question: '2022 Is the United Nations International Year of...?',
-    
-        choice1: 'Rebuilding and Hope',
-        choice2: 'The Future Generation',
-        choice3: 'Artisanal Fisheries and Aquaculture',
-        choice4: 'Work Meetings',
+        question: 'If all goes to plan, what will Elizabeth Windsor celebrate in February?',
+        choice1: 'Her Birthday',
+        choice2: 'Platinum Jubilee',
+        choice3: 'Her Estranged Grandsons Anniversary',
+        choice4: 'Golden Jubilee',
+        answer: 2,
+    },
+    {
+        question:
+            "what is 2022 written in Roman numerals?",
+        choice1: "MMXXII",
+        choice2: "2022",
+        choice3: "MMXXXII",
+        choice4: "LXIX",
+        answer: 1,
+    },
+    {
+        question: "2022 is the United Nation's International Year of...?",
+        choice1: "Rebuilding and Hope",
+        choice2: "The Future Generations",
+        choice3: "Artisanal Fisheries And Aquaculture ",
+        choice4: "Work Meetings",
         answer: 3,
     },
     {
-        question: 'In 2022, Where will the Eurovision Song Contest be hosted?',
-            choice1: 'Rome',
-            choice2: 'Florence',
-            choice3: 'Turin',
-            choice4: 'Weatherspoons',
-            answer: 3,
-        },
-        {
-            question: 'In June 2022, which Irish county is due to be completely detached from the island and Jettisoned out to sea?',
-                choice1: 'Cork',
-                choice2: 'Galway',
-                choice3: 'Louth',
-                choice4: 'What do you mean? No Irish country is set to detach and join the Jettisoned sea in 2022',
-                answer: 4,
-            }
+        question: "Where will the Eurovision Song Contest be hosted?",
+        choice1: "Rome",
+        choice2: "Florence",
+        choice3: "Turin",
+        choice4: "Weatherspoons",
+        answer: 3,
+    },
+    {
+        question: "In June 2022, which Irish county is due to be completely detached from the island and Jettisoned out to sea?",
+        choice1: "Cork",
+        choice2: "Galway",
+        choice3: "Louth",
+        choice4: "What do you mean? No Irish country is set to detach and join the Jettisoned sea in 2022",
+        answer: 4,
+    }
+
 ]
+
 
 const SCORE_POINTS = 1
 const MAX_QUESTIONS = 5
@@ -121,6 +119,5 @@ incrementScore = num => {
     score +=num
     scoreText.innerText = score
 }
-
 
 startGame()
