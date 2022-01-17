@@ -10,6 +10,8 @@ let score = 0
 let questionCounter = 0
 let availableQuestions = []
 
+
+
 let questions = [
     {
         question: 'If all goes to plan, what will Elizabeth Windsor celebrate in February?',
@@ -119,5 +121,7 @@ incrementScore = num => {
     score +=num
     scoreText.innerText = score
 }
+
+
 
 startGame()

@@ -1,6 +1,10 @@
 body {
     color: #fff;
 }
+#time{
+    font-size: 30px;
+    display: flex;
+  }
 
 .choice-container {
     display: flex;
